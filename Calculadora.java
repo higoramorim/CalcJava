@@ -15,6 +15,47 @@ public class Calculadora {
   
       Scanner scanner = new Scanner(System.in);
       opcao = scanner.nextInt();
+      processar(opcao);
     } while (opcao != 0);
+  }
+  public static void processar (int opcao){
+    switch (opcao){
+      case 1: {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("somando dois números");
+        System.out.println("digite o primeiro numero:");
+        int numero1 = scanner.nextInt();
+        System.out.println("digite o segundo numero:");
+        int numero2 = scanner.nextInt();
+        int soma = numero1 + numero2;
+
+        System.out.println("a soma de dois numeros é: " + soma);
+        break;
+      }
+      case 2: {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("somando dois números");
+        System.out.println("digite o primeiro numero:");
+        int numero1 = scanner.nextInt();
+        System.out.println("digite o segundo numero:");
+        int numero2 = scanner.nextInt();
+        int subtracao = numero1 - numero2;
+
+        System.out.println("a soma de dois numeros é: " + subtracao);
+        break;
+      }
+      case 3: {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("somando dois números");
+        System.out.println("digite o primeiro numero:");
+        int numero1 = scanner.nextInt();
+        System.out.println("digite o segundo numero:");
+        int numero2 = scanner.nextInt();
+        int multiplicacao = numero1 * numero2;
+
+        System.out.println("a soma de dois numeros é: " + multiplicacao);
+        break;
+      }
+    }
   }
 }
