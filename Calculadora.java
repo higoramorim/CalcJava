@@ -19,9 +19,9 @@ public class Calculadora {
     } while (opcao != 0);
   }
   public static void processar (int opcao){
+    Scanner scanner = new Scanner(System.in);
     switch (opcao){
       case 1: {
-        Scanner scanner = new Scanner(System.in);
         System.out.println("somando dois números");
         System.out.println("digite o primeiro numero:");
         int numero1 = scanner.nextInt();
@@ -33,7 +33,6 @@ public class Calculadora {
         break;
       }
       case 2: {
-        Scanner scanner = new Scanner(System.in);
         System.out.println("somando dois números");
         System.out.println("digite o primeiro numero:");
         int numero1 = scanner.nextInt();
@@ -45,7 +44,6 @@ public class Calculadora {
         break;
       }
       case 3: {
-        Scanner scanner = new Scanner(System.in);
         System.out.println("somando dois números");
         System.out.println("digite o primeiro numero:");
         int numero1 = scanner.nextInt();
@@ -57,7 +55,6 @@ public class Calculadora {
         break;
       }
       case 4: {
-        Scanner scanner = new Scanner(System.in);
         System.out.println("somando dois números");
         System.out.println("digite o primeiro numero:");
         int numero1 = scanner.nextInt();
