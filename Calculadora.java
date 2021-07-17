@@ -32,6 +32,18 @@ public class Calculadora {
         System.out.println("a soma de dois numeros é: " + soma);
         break;
       }
+      case 2: {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("somando dois números");
+        System.out.println("digite o primeiro numero:");
+        int numero1 = scanner.nextInt();
+        System.out.println("digite o segundo numero:");
+        int numero2 = scanner.nextInt();
+        int subtracao = numero1 - numero2;
+
+        System.out.println("a soma de dois numeros é: " + subtracao);
+        break;
+      }
     }
   }
 }
