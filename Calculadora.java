@@ -56,6 +56,20 @@ public class Calculadora {
         System.out.println("a soma de dois numeros é: " + multiplicacao);
         break;
       }
+      case 4: {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("somando dois números");
+        System.out.println("digite o primeiro numero:");
+        int numero1 = scanner.nextInt();
+        System.out.println("digite o segundo numero:");
+        int numero2 = scanner.nextInt();
+        if (numero2 != 0){
+          int divisao = numero1 / numero2;
+          System.out.println("a divisao de dois numeros é: " + divisao);
+        }
+        numero2 = scanner.nextInt();
+        break;
+      }
     }
   }
 }
